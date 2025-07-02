@@ -17,7 +17,6 @@ Includes:
   * Interval practice with piano keys with ascending and descending
   * Chord practice with piano keys module
   * Chord progression practice with most popular chord progressions
-  * 
 
 * Jam Module:  An entire module centered around backing tracks
   * Option of a metronome, imported from YouTube vids or simple piano 
