@@ -23,6 +23,5 @@ Includes:
     progressions from the app
   * Looper that takes in any recording and just loops it, perfect for if the 
   user has their own melodies
-
-This module hammers in improvisation techniques with rounded practice and 
+  * This module hammers in improvisation techniques with rounded practice and 
 includes multiplt feels and genres. 
