@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="first-steps">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/first-steps.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
