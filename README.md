@@ -9,8 +9,7 @@ supposed to house several avenues of practice:
   * Timer: Simple timer for time exercises 
   * Tuner: Fully functional string instrument tuner; offers support for other 
 types of instruments as well as different frequencies for selection and popular 
-metal/acoustic alternate tuning presets 
-
+metal/acoustic alternate tuning presets
 
 * Ear Training Module: An entire module dedicated to ear training. 
 Includes: 
