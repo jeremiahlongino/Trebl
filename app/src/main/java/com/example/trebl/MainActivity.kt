@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             TreblTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Petah",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     TreblTheme {
-        Greeting("Android")
+        Greeting("Petah")
     }
 }
