@@ -16,32 +16,21 @@ import com.example.trebl.ui.theme.TreblTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
+        updateWidgetPreview(this)
         setContent {
-            TreblTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Petah",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }
+//            val displayFeatures = calculateDisplayFeatures(this)
+//
+//            TreblTheme {
+//                //TreblApp(
+//                    displayFeatures,
+//                )
+//            }
         }
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+    private fun updateWidgetPreview(mainActivity: MainActivity) {
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TreblTheme {
-        Greeting("Petah")
     }
 }
