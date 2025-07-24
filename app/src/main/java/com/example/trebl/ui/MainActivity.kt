@@ -1,4 +1,4 @@
-package com.example.trebl.ui.home
+package com.example.trebl.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

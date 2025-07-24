@@ -23,4 +23,3 @@ rootProject.name = "trebl"
 include(":app")
 include(":app")
 include(":app")
- 
